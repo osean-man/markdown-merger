@@ -2,6 +2,8 @@
 
 `mdmerge` is a command-line interface (CLI) tool built with Go and Cobra, designed to facilitate the merging of multiple Markdown files into a single document. This tool was created to quickly aggregate documentation from git repositories, making it easier to feed content into Large Language Models (LLMs) for processing or analysis. While currently focused on Markdown files, `mdmerge` can be extended to support various file types.
 
+## UPDATED TO USE ANY FILE TYPE AND EXTRA COMMANDS
+
 ## Features
 
 - **Recursive Merging**: Traverse directories recursively to find and merge all Markdown files.
