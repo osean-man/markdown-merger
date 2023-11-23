@@ -28,8 +28,11 @@ After building the tool, run it using the following syntax:
 Replace <path-to-markdown-files> with the directory path where your Markdown files are located, and <merged-filename.md> with your desired output file name.
 ## Flags
 ```
---path, -p: (Required) The path to the directory containing Markdown files to be merged.
---output, -o: (Optional) The name of the output file. Defaults to merged.md if not specified.
+  -x, --extension string   File extension to merge (default "txt")
+  -h, --help               help for file-merge
+  -o, --output string      Output file name (default "merged.txt")
+  -p, --path string        Path to recursively merge files from (default ".")
+  -s, --separator          Insert a separator comment between files
 ```
 ## Examples
 Merge Markdown files from a specific directory into a file named combined.md:
